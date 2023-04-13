@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    01_01_assembly_canu.contigs
+# contigs (>= 0 bp)         2                          
+# contigs (>= 1000 bp)      2                          
+# contigs (>= 5000 bp)      2                          
+# contigs (>= 10000 bp)     2                          
+# contigs (>= 25000 bp)     2                          
+# contigs (>= 50000 bp)     2                          
+Total length (>= 0 bp)      2617214                    
+Total length (>= 1000 bp)   2617214                    
+Total length (>= 5000 bp)   2617214                    
+Total length (>= 10000 bp)  2617214                    
+Total length (>= 25000 bp)  2617214                    
+Total length (>= 50000 bp)  2617214                    
+# contigs                   2                          
+Largest contig              2566160                    
+Total length                2617214                    
+GC (%)                      54.10                      
+N50                         2566160                    
+N75                         2566160                    
+L50                         1                          
+L75                         1                          
+# N's per 100 kbp           0.00                       
