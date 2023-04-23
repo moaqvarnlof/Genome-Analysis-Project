@@ -15,7 +15,7 @@ module load bioinfo-tools canu
 # Assembly
 canu \
 -p 01_01_assembly_canu \
--d /home/moaqva/GENOMEANALYSIS/Genome-Analysis-Project/analyses/02_genome_assembly \
+-d /home/moaqva/Genome-Analysis-Project/analyses/01_genome_assembly \
 genomeSize=2.4m \
 useGrid=false \
 maxThreads=4 \
