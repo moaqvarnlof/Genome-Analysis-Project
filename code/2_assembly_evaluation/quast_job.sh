@@ -13,8 +13,10 @@
 module load bioinfo-tools quast
 
 
-output_directory="/home/moaqva/Genome-Analysis-Project/analyses/02_assembly_evaluation"
+#output_directory="/home/moaqva/Genome-Analysis-Project1/analyses/02_assembly_evaluation"
+file="/home/moaqva/Genome-Analysis-Project1/analyses/01_genome_assembly/01_01_assembly_canu.contigs.fasta"
+output="/home/moaqva/Genome-Analysis-Project1/analyses/02_assembly_evaluation/with_reference/"
+reference="/home/moaqva/GENOMEANALYSIS/raw_data/reference/OBMB01.fasta"
 
-file="/home/moaqva/Genome-Analysis-Project/analyses/01_genome_assembly/01_01_assembly_canu.contigs.fasta"
-
-quast.py -o $output_directory $file
+#quast.py -o $output_directory $file
+quast.py $file -R $reference -o $output

@@ -9,9 +9,9 @@
 
 module load bioinfo-tools htseq samtools
 
-GENOME="/home/moaqva/Genome-Analysis-Project1/analyses/03_structural_annotation/PROKKA.gff"
+GENOME="/home/moaqva/Genome-Analysis-Project1/analyses/03_structural_annotation/prokka2/Leptospirillum2.gff"
 BAM="/proj/genomeanalysis2023/nobackup/work/moaqva/bwa_result"
-OUTPUT="/proj/genomeanalysis2023/nobackup/work/moaqva/"
+OUTPUT="/proj/genomeanalysis2023/nobackup/work/moaqva/htseq2"
 SEQ="ERR2036629 ERR2036630 ERR2036631 ERR2036632 ERR2036633 ERR2117288 ERR2117289 ERR2117290 ERR2117291 ERR2117292"
 
 $SNIC_TMP
